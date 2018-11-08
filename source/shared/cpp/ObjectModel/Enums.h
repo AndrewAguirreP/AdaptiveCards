@@ -325,7 +325,8 @@ namespace AdaptiveSharedNamespace
         RenderFailed,
         RequiredPropertyMissing,
         InvalidPropertyValue,
-        UnsupportedParserOverride
+        UnsupportedParserOverride,
+        IdCollision
     };
 
     enum class WarningStatusCode
